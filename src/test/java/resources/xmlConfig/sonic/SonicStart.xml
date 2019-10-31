@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DiaoJH-->
+<!--2019.8-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SonicAutoTest" verbose="1" preserve-order="true" parallel="false">
+
+    <listeners>
+        <listener class-name="com.dcits.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+    <test name="L-文件分段JOB">
+        <parameter name="fileName" value="job_resource.xml" />
+        <parameter name="propertyName" value="sonic.properties"/>
+        <parameter name="isSepFlag" value="true"/>
+        <classes>
+            <class name="com.dcits.sonic.interfaceAutoTest.SonicJobInterfaceAutoMody">
+                <methods>
+                    <include name = "judgeSonicFileSepJob"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!--测试阶段 普通step测试-->
+    <test name="L-普通JOB">
+        <parameter name="fileName" value="job_normal.xml" />
+        <parameter name="propertyName" value="sonicNormal.properties"/>
+        <parameter name="isSepFlag" value="false"/>
+        <classes>
+            <class name="com.dcits.sonic.interfaceAutoTest.SonicJobInterfaceAutoMody">
+                <methods>
+                    <include name = "judgeSonicNormalJob"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <!--&lt;!&ndash;测试阶段 文件分段测试&ndash;&gt;
+    <test name="L-文件分段JOB">
+        <parameter name="fileName" value="job_resource.xml" />
+        <parameter name="propertyName" value="sonic.properties"/>
+        <classes>
+            <class name="com.dcits.sonic.interfaceAutoTest.SonicJobInterfaceAutoMody">
+                <methods>
+                    <include name = "getJobPreResult"/>
+                    <include name = "testGetNum"/>
+                    <include name = "testGetList" />
+                    <include name = "testJobCommand" />
+                    <include name = "testGetCurrentRunJob" />
+                    <include name = "testGetCurrentRunStep" />
+                &lt;!&ndash;    <include name = "testGetStepErrorInfo" />
+                    <include name = "testGetCurrentSplitRunStep" />&ndash;&gt;
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    &lt;!&ndash;测试阶段 普通step测试&ndash;&gt;
+    <test name="L-普通JOB">
+        <parameter name="fileName" value="job_normal.xml" />
+        <parameter name="propertyName" value="sonicNormal.properties"/>
+        <classes>
+            <class name="com.dcits.sonic.interfaceAutoTest.SonicJobInterfaceAutoMody">
+                <methods>
+                    <include name = "getJobPreResult"/>
+                   <include name = "testGetList" />
+                   <include name = "testJobCommand" />
+                   <include name = "testGetCurrentRunJob" />
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+
+    <!--定时JOB-->
+
+    <!--数据库分段JOB-->
+
+    <!--异常JOB-->
+</suite>

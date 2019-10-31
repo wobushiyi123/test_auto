@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JOB测试用例集">
+    <test name="数据库分段">
+        <parameter name="param_fileName" value="param.properties" />
+        <parameter name="pre_fileName" value="preData.xml"/>
+        <parameter name="jobTypeFlag" value="segment"/>
+        <parameter name="isTimedJob" value="false"/>
+        <classes>
+            <class name="com.dcits.selenium.sonic.jobTestUtil.DoJobTest"></class>
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="com.dcits.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
