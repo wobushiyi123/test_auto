@@ -27,21 +27,21 @@ public class SonicPropertyUtil {
         logger.info("开始加载properties文件内容.......");
         props = new Properties();
         //InputStream in = null;
-        FileInputStream is = null;
+        InputStream in = null;
         try {
-            is = new FileInputStream(fileName);
-            InputStreamReader reader = new InputStreamReader(is,"UTF-8");
+             in = SonicPropertyUtil.class.getClassLoader().getResourceAsStream(fileName);
+            InputStreamReader reader = new InputStreamReader(in,"UTF-8");
             props.load(reader);
-          /*  in = SonicPropertyUtil.class.getClassLoader().getResourceAsStream(fileName);
-            props.load(in);*/
+
+            //props.load(in);
         } catch (FileNotFoundException e) {
             logger.error(fileName+"文件未找到");
         } catch (IOException e) {
             logger.error("出现IOException");
         } finally {
             try {
-                if (null != is) {
-                    is.close();
+                if (null != in) {
+                    in.close();
                 }
             } catch (IOException e) {
                 logger.error("properties文件流关闭出现异常");
