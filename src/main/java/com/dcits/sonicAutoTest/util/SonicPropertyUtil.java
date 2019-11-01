@@ -26,10 +26,14 @@ public class SonicPropertyUtil {
         System.out.println("fileName"+fileName);
         logger.info("开始加载properties文件内容.......");
         props = new Properties();
+        //InputStream in = null;
         InputStream in = null;
         try {
-            in = SonicPropertyUtil.class.getClassLoader().getResourceAsStream(fileName);
-            props.load(in);
+             in = SonicPropertyUtil.class.getClassLoader().getResourceAsStream(fileName);
+            InputStreamReader reader = new InputStreamReader(in,"UTF-8");
+            props.load(reader);
+
+            //props.load(in);
         } catch (FileNotFoundException e) {
             logger.error(fileName+"文件未找到");
         } catch (IOException e) {
@@ -55,13 +59,11 @@ public class SonicPropertyUtil {
         fileName = propName;
         String value="";
         loadProps();
-       try {
-            if(StringUtils.isNotBlank(props.getProperty(key))){
-               value =  new String(props.getProperty(key).getBytes("ISO8859-1"), "gbk");
-           }
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+        if(StringUtils.isNotBlank(props.getProperty(key))){
+           //value =  new String(props.getProperty(key).getBytes("ISO8859-1"), "gbk");
+            value =  props.getProperty(key);
+       }
+
         //日期时间格式转换
         if(("sonic.job.startTime_S".equals(key) || "sonic.job.startTime_E".equals(key)) && StringUtils.isNotBlank(props.getProperty(key))){
             SimpleDateFormat format =  new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
