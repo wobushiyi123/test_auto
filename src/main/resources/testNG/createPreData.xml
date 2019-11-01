@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="预言值存储">
+    <test name="普通JOB">
+        <parameter name="param_fileName" value="param.properties"/>
+        <parameter name="pre_fileName" value="preData"/>
+        <parameter name="isTimedJob" value="false"/>
+        <classes>
+            <class name="com.dcits.sonicAutoTest.interfaceTest.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.dcits.sonicAutoTest.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

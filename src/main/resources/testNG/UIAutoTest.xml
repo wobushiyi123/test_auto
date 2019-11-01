@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI自动化测试">
+    <test name="UI自动化测试">
+        <classes>
+            <class name="com.dcits.sonicAutoTest.UITest.StartTest">
+                <methods>
+                    <include name="testNGWay"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.dcits.sonicAutoTest.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
