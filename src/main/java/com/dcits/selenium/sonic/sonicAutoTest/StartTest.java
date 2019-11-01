@@ -13,7 +13,7 @@ import java.util.Map;
 public class StartTest {
     public static void main(String args[]) {
         System.out.println("测试开始！");
-        String paramFile = "param.properties";
+        String paramFile = "sonic.properties";
         String driverPath = "sonic.platform.driverPath";
         String url = "sonic.platform.url";
         String username = "sonic.platform.username";
@@ -45,8 +45,8 @@ public class StartTest {
         paramMap.put("jobStatus", jobStatus);
         paramMap.put("stepStatus", stepStatus);
         try {
-            WebDriver driver = LoginUtil.loadDriver();
-            LoginUtil.login(driver);
+            WebDriver driver = LoginUtil.loadDriver(paramMap);
+            LoginUtil.login(paramMap,driver);
             //PlatformManage_2.platformManage_2(driver);//平台管理
             JobManage_3.jobManage_3(driver, paramMap);//作业管理
             UniteDispatch_4.uniteDispatch_4(driver, paramMap);//统一调度

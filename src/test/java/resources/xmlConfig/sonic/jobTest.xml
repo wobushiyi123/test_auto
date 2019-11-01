@@ -3,8 +3,7 @@
 <suite name="JOB测试用例集">
     <test name="数据库分段">
         <parameter name="param_fileName" value="param.properties" />
-        <parameter name="pre_fileName" value="preData.xml"/>
-        <parameter name="jobTypeFlag" value="segment"/>
+        <parameter name="pre_fileName" value="preData"/>
         <parameter name="isTimedJob" value="false"/>
         <classes>
             <class name="com.dcits.selenium.sonic.jobTestUtil.DoJobTest"></class>

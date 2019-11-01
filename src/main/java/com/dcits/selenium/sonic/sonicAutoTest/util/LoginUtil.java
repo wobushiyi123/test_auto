@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import java.util.Map;
+
 /**
  * 【登录登出管理公共类】
  */
@@ -29,16 +31,16 @@ public class LoginUtil {
     /**
      * 获取浏览器驱动
      *
-     * @return 浏览器驱动
+     * @param paramMap
+     * @return
      */
-    public static WebDriver loadDriver() {
+    public static WebDriver loadDriver(Map<String, String> paramMap) {
         WebDriver driver = null;
+        String driverPath = paramMap.get("driverPath");
         //谷歌浏览器
-        /*driver = DriverUtil.getChromeDriver
-                ("E:\\Sonic自动化\\chrome\\chromedriver_win32\\chromedriver.exe");*/
+        //driver = DriverUtil.getChromeDriver(driverPath);
         //火狐浏览器
-        driver = DriverUtil.getFiedFoxDriver
-                ("E:\\Sonic自动化\\geckodriver-v0.25.0-win64\\geckodriver.exe");
+        driver = DriverUtil.getFiedFoxDriver(driverPath);
         return driver;
 
 
@@ -50,19 +52,19 @@ public class LoginUtil {
      * @param driver
      * @throws InterruptedException
      */
-    public static void login(WebDriver driver) throws InterruptedException {
+    public static void login(Map<String,String> paramMap,WebDriver driver) throws InterruptedException {
         Thread.sleep(1000);
         //获取访问地址—调度端地址：10.7.19.116:31561
-        driver.get("http://10.7.19.116:31561");
+        driver.get(paramMap.get("url"));
         //driver.get("http://10.7.20.206:8099");
         //浏览器最大化
         driver.manage().window().maximize();
         Thread.sleep(1000);
         //输入用户名：mayym
-        driver.findElement(By.name("username")).sendKeys("mayym");
+        driver.findElement(By.name("username")).sendKeys(paramMap.get("username"));
         Thread.sleep(1000);
         //输入密码：123456
-        driver.findElement(By.name("password")).sendKeys("123456");
+        driver.findElement(By.name("password")).sendKeys(paramMap.get("password"));
         Thread.sleep(1000);
         //点击登录
         driver.findElement(By.cssSelector(".el-button")).click();

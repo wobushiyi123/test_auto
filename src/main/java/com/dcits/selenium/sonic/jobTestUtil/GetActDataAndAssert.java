@@ -87,6 +87,11 @@ public class GetActDataAndAssert {
         Assert.assertEquals(pre_data.getString("jobId"), act_data.getString("jobId"), "jobId不同！");
         Assert.assertEquals(pre_data.getString("jobName"), act_data.getString("jobName"), "jobName不同！");
         Assert.assertEquals(pre_data.getString("jobDesc"), act_data.getString("jobDesc"), "jobDesc不同！");
+         JSONArray pre_stepObject = pre_data.getJSONArray("steps");
+        JSONArray acu_stepObject = act_data.getJSONArray("steps");
+        if (pre_stepObject.size() != acu_stepObject.size()){
+            Assert.assertEquals(pre_stepObject.size() ,  acu_stepObject.size(), "step个数不同！");
+        }
         logger.info("JOB详细信息校验通过！");
 
     }
