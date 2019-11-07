@@ -127,7 +127,8 @@
                     <encoding>UTF-8</encoding>
                     <!--动态指定执行的xml文件。${project.basedir}项目目录，${xmlFileName}maven文件-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.basedir}/target/classes/testNg/jobTest.xml</suiteXmlFile>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <suiteXmlFile>${project.basedir}/target/classes/testNg/${xmlFileName}</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <!--suppress UnresolvedMavenProperty -->
