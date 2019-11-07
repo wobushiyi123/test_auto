@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <creator>mayym</creator>
+      <jobDesc null="true"/>
+      <jobId>1402b927a4464e89abd0380fda540017</jobId>
+      <jobName>数据库分段JOB正确</jobName>
+      <jobRunStatus null="true"/>
+      <lines/>
+      <steps>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>mayym</creator>
+          <height>27.00</height>
+          <jobId>1402b927a4464e89abd0380fda540017</jobId>
+          <leftPos>222.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+          <stepName>数据库分段正确</stepName>
+          <stepPosId>033cfafdfebd409f847292b6762226ff</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <topPos>157.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+        <createDate>2019-11-06T09:14:50.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573031690174</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>1402b927a4464e89abd0380fda540017</jobId>
+        <jobName>数据库分段JOB正确</jobName>
+        <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.115:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator/>
+        <profile>dev</profile>
+        <secret null="true"/>
+        <startTime>1573031689612</startTime>
+        <startType>M</startType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>4</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>475</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031690132</endTime>
+        <failCount null="true"/>
+        <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>getAcctInfo</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>acct_No</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>5</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+        <splitCount>4</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031689657</startTime>
+        <stepDesc null="true"/>
+        <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+        <stepName>数据库分段正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>37d5e336bd9947aab25ddd3fba03e5ad</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+        <attention>false</attention>
+        <createTime>1570791960000</createTime>
+        <creator>mayym</creator>
+        <cronExpression null="true"/>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>1402b927a4464e89abd0380fda540017</jobId>
+        <jobName>数据库分段JOB正确</jobName>
+        <jobStatus null="true"/>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev</profile>
+        <secret null="true"/>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>1402b927a4464e89abd0380fda540017</jobId>
+      <jobName>数据库分段JOB正确</jobName>
+      <jobRunStatus>C</jobRunStatus>
+      <lines/>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>222.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>数据库分段正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+            <attrJson>
+              <sonic_maxSize>5</sonic_maxSize>
+              <sonic_nameSpace>com.dcits.gravity.demo.dao.AcctInfoDao</sonic_nameSpace>
+              <sonic_segmentField>acct_No</sonic_segmentField>
+              <sonic_sqlId>getAcctInfo</sonic_sqlId>
+            </attrJson>
+            <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>4</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>475</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573031690132</endTime>
+            <failCount>0</failCount>
+            <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+            <machineId>b397c9e9f93c5982dc14e4b2ae188ec2</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0001</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>a11c8819f7aa46baa39d196f5893c9b9</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+            <splitCount>4</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573031689657</startTime>
+            <stepDesc null="true"/>
+            <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+            <stepName>数据库分段正确</stepName>
+            <stepPosId>033cfafdfebd409f847292b6762226ff</stepPosId>
+            <stepRunId>37d5e336bd9947aab25ddd3fba03e5ad</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>157.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <instruction>invokeOnce</instruction>
+      <jobId>1402b927a4464e89abd0380fda540017</jobId>
+      <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+      <operator/>
+      <profile>dev</profile>
+      <secret>8ALJdaF80ASsdASDdF778A8S8DFASsDF</secret>
+      <startType>O</startType>
+      <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+    </data>
+    <message>Success</message>
+    <startJobTimeFlag>1573031691382</startJobTimeFlag>
+  </jobCommand>
+  <step_1_数据库分段正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_数据库分段正确_段_error>
+  <step_1_数据库分段正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>4</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>475</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031690132</endTime>
+    <failCount null="true"/>
+    <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>getAcctInfo</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>acct_No</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>5</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+    <splitCount>4</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031689657</startTime>
+    <stepDesc null="true"/>
+    <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+    <stepName>数据库分段正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>37d5e336bd9947aab25ddd3fba03e5ad</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_数据库分段正确_段_info>
+  <step_1_数据库分段正确_段_list>
+    <allStepsCnt>4</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>169</elapsed>
+      <endKey null="true"/>
+      <endTime>1573031690107</endTime>
+      <failCount null="true"/>
+      <jobRunId>a11c8819f7aa46baa39d196f5893c9b9</jobRunId>
+      <machineId>10.7.84.147:62944</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>1005</sonic_segment_end>
+            <sonic_segment_start>1001</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573031689938</startTime>
+      <stepDesc null="true"/>
+      <stepId>37d5e336bd9947aab25ddd3fba03e5ad</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>feacd068f8ea4f9896d9829c383dadba</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>4</finishedCnt>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_数据库分段正确_段_list>
+</resource>
+

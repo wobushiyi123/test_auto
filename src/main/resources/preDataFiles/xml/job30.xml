@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator>Author</creator>
+      <jobDesc null="true"/>
+      <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+      <jobName>Y-数据库分段串行引用正确-job30</jobName>
+      <jobRunStatus null="true"/>
+      <lines>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0001</fromNodeId>
+          <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+          <lineId>S0003</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0002</toNodeId>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0002</fromNodeId>
+          <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+          <lineId>S0005</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0004</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+          <leftPos>115.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+          <stepName>数据库分段-正确</stepName>
+          <stepPosId>3731c7a0c19841f285952cd51a472d8e</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>115.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+          <leftPos>100.00</leftPos>
+          <nodeId>S0002</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId>742b8dd39a074d96b1daef408fb29ae4</refJobId>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>742b8dd39a074d96b1daef408fb29ae4</stepId>
+          <stepName>数据库多个分段step-串行正确13</stepName>
+          <stepPosId>3889631343e74f31b8f86a7d60902e8b</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>208.00</topPos>
+          <width>226.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+          <leftPos>104.00</leftPos>
+          <nodeId>S0004</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId>c8bedb500faa407484febd6684d21ec0</refJobId>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>c8bedb500faa407484febd6684d21ec0</stepId>
+          <stepName>数据库分段-执行正确06</stepName>
+          <stepPosId>c343f94276e048f0bf629cf88ed435ac</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>295.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T12:48:18.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573044500749</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>3</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+        <jobName>Y-数据库分段串行引用正确-job30</jobName>
+        <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.115:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573044498013</startTime>
+        <startType>M</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>3</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName null="true"/>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>1</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>582</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044500728</endTime>
+        <failCount null="true"/>
+        <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId>7c1b46a0a5654995a5126ce9c6b8858f</refJobId>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>1</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044500146</startTime>
+        <stepDesc null="true"/>
+        <stepId>c8bedb500faa407484febd6684d21ec0</stepId>
+        <stepName>数据库分段-执行正确06</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>7c1b46a0a5654995a5126ce9c6b8858f</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>RF</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName null="true"/>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>3</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>1527</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044500120</endTime>
+        <failCount null="true"/>
+        <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId>76de8880df9744879107eb2d3bee2827</refJobId>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>3</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044498593</startTime>
+        <stepDesc null="true"/>
+        <stepId>742b8dd39a074d96b1daef408fb29ae4</stepId>
+        <stepName>数据库多个分段step-串行正确13</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>76de8880df9744879107eb2d3bee2827</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>RF</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>5</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>450</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044498578</endTime>
+        <failCount null="true"/>
+        <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>segment</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>sid</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>50</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+        <splitCount>5</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044498128</startTime>
+        <stepDesc null="true"/>
+        <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+        <stepName>数据库分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>38f30909dad242c185de5dc6b8bf9fc6</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>3</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <attention>false</attention>
+        <createTime>1563801737000</createTime>
+        <creator>Author</creator>
+        <cronExpression null="true"/>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+        <jobName>Y-数据库分段串行引用正确-job30</jobName>
+        <jobStatus null="true"/>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+      <jobName>Y-数据库分段串行引用正确-job30</jobName>
+      <jobRunStatus>C</jobRunStatus>
+      <lines>
+        <e>
+          <fromNodeId>S0001</fromNodeId>
+          <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+          <toNodeId>S0002</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0002</fromNodeId>
+          <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+          <toNodeId>S0004</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>115.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>数据库分段-正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_maxSize>50</sonic_maxSize>
+              <sonic_nameSpace>com.dcits.sonic.executor.spring.demo.model.User</sonic_nameSpace>
+              <sonic_segmentField>sid</sonic_segmentField>
+              <sonic_sqlId>segment</sonic_sqlId>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>5</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>450</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044498578</endTime>
+            <failCount>0</failCount>
+            <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0001</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>ce78f546c0b2476ebb7d32e137fe1e28</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+            <splitCount>5</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044498128</startTime>
+            <stepDesc null="true"/>
+            <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+            <stepName>数据库分段-正确</stepName>
+            <stepPosId>3731c7a0c19841f285952cd51a472d8e</stepPosId>
+            <stepRunId>38f30909dad242c185de5dc6b8bf9fc6</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>115.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>100.00</leftPos>
+          <nodeId>S0002</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>数据库多个分段step-串行正确13</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson null="true"/>
+            <clazzName null="true"/>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>3</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>1527</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044500120</endTime>
+            <failCount>0</failCount>
+            <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+            <machineId null="true"/>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0002</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError null="true"/>
+            <refJobId>76de8880df9744879107eb2d3bee2827</refJobId>
+            <rootJobRunId>ce78f546c0b2476ebb7d32e137fe1e28</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>3</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044498593</startTime>
+            <stepDesc null="true"/>
+            <stepId>742b8dd39a074d96b1daef408fb29ae4</stepId>
+            <stepName>数据库多个分段step-串行正确13</stepName>
+            <stepPosId>3889631343e74f31b8f86a7d60902e8b</stepPosId>
+            <stepRunId>76de8880df9744879107eb2d3bee2827</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>RF</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>208.00</topPos>
+          <width>226.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>104.00</leftPos>
+          <nodeId>S0004</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>数据库分段-执行正确06</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson null="true"/>
+            <clazzName null="true"/>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>1</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>582</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044500728</endTime>
+            <failCount>0</failCount>
+            <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+            <machineId null="true"/>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0004</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError null="true"/>
+            <refJobId>7c1b46a0a5654995a5126ce9c6b8858f</refJobId>
+            <rootJobRunId>ce78f546c0b2476ebb7d32e137fe1e28</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>1</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044500146</startTime>
+            <stepDesc null="true"/>
+            <stepId>c8bedb500faa407484febd6684d21ec0</stepId>
+            <stepName>数据库分段-执行正确06</stepName>
+            <stepPosId>c343f94276e048f0bf629cf88ed435ac</stepPosId>
+            <stepRunId>7c1b46a0a5654995a5126ce9c6b8858f</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>RF</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>295.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <instruction>invokeOnce</instruction>
+      <jobId>4c72897892cf4ca1a606a019fe03145b</jobId>
+      <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+      <operator/>
+      <profile>dev_test</profile>
+      <secret/>
+      <startType/>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <message>Success</message>
+    <startJobTimeFlag>1573044499757</startJobTimeFlag>
+  </jobCommand>
+  <step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_error>
+  <step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.TestSDStepExecutorTrue</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>10</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>497</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044500713</endTime>
+    <failCount null="true"/>
+    <jobRunId>7c1b46a0a5654995a5126ce9c6b8858f</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.demo.segment.sd.TestSDSegExecutorTrue</splitClazzName>
+    <splitCount>10</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044500216</startTime>
+    <stepDesc null="true"/>
+    <stepId>c2ce6365489a407bb27c749359d70798</stepId>
+    <stepName>数据库分段-执行异常</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>c4f82b70764f42c7aac043a5106100b6</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_info>
+  <step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_list>
+    <allStepsCnt>10</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.TestSDStepExecutorTrue</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>77</elapsed>
+      <endKey null="true"/>
+      <endTime>1573044500474</endTime>
+      <failCount null="true"/>
+      <jobRunId>7c1b46a0a5654995a5126ce9c6b8858f</jobRunId>
+      <machineId>10.7.94.75:55616</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>offset</key>
+          <value>1</value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.sonic.executor.spring.demo.segment.sd.TestSDSegExecutorTrue</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573044500397</startTime>
+      <stepDesc null="true"/>
+      <stepId>c4f82b70764f42c7aac043a5106100b6</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>056435bb4c6141d29f44c94cecb112f5</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>10</finishedCnt>
+    <message>Success</message>
+    <totalCount>10</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_数据库分段-执行正确06_组_1_数据库分段-执行异常_段_list>
+  <step_1_数据库分段-执行正确06_组_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_数据库分段-执行正确06_组_error>
+  <step_1_数据库分段-执行正确06_组_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName null="true"/>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>1</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>582</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044500728</endTime>
+    <failCount null="true"/>
+    <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId>7c1b46a0a5654995a5126ce9c6b8858f</refJobId>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>1</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044500146</startTime>
+    <stepDesc null="true"/>
+    <stepId>c8bedb500faa407484febd6684d21ec0</stepId>
+    <stepName>数据库分段-执行正确06</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>7c1b46a0a5654995a5126ce9c6b8858f</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>RF</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_1_数据库分段-执行正确06_组_info>
+  <step_1_数据库分段-执行正确06_组_list>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.TestSDStepExecutorTrue</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>10</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>497</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044500713</endTime>
+        <failCount null="true"/>
+        <jobRunId>7c1b46a0a5654995a5126ce9c6b8858f</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.demo.segment.sd.TestSDSegExecutorTrue</splitClazzName>
+        <splitCount>10</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044500216</startTime>
+        <stepDesc null="true"/>
+        <stepId>c2ce6365489a407bb27c749359d70798</stepId>
+        <stepName>数据库分段-执行异常</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>c4f82b70764f42c7aac043a5106100b6</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_数据库分段-执行正确06_组_list>
+  <step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_error>
+  <step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>5</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>365</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044499460</endTime>
+    <failCount null="true"/>
+    <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>segment</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>sid</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>50</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+    <splitCount>5</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044499095</startTime>
+    <stepDesc null="true"/>
+    <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+    <stepName>数据库分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>08c4cfdc73454cc39bba5e4747e7ae20</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_info>
+  <step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_list>
+    <allStepsCnt>5</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>108</elapsed>
+      <endKey null="true"/>
+      <endTime>1573044499350</endTime>
+      <failCount null="true"/>
+      <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+      <machineId>10.7.94.75:55616</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>100</sonic_segment_end>
+            <sonic_segment_start>2</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573044499242</startTime>
+      <stepDesc null="true"/>
+      <stepId>08c4cfdc73454cc39bba5e4747e7ae20</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>92454f9aee6b4d8a9048d6f041ecc025</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>5</finishedCnt>
+    <message>Success</message>
+    <totalCount>5</totalCount>
+    <totalPage>1</totalPage>
+  </step_2_数据库多个分段step-串行正确13_组_1_数据库分段-正确_段_list>
+  <step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_error>
+  <step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>5</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>371</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044499010</endTime>
+    <failCount null="true"/>
+    <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>segment</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>sid</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>50</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+    <splitCount>5</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044498639</startTime>
+    <stepDesc null="true"/>
+    <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+    <stepName>数据库分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>2ea10e6188624ebe8f10742c4935f3fe</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_info>
+  <step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_list>
+    <allStepsCnt>5</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>104</elapsed>
+      <endKey null="true"/>
+      <endTime>1573044498857</endTime>
+      <failCount null="true"/>
+      <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+      <machineId>10.7.94.75:55616</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>100</sonic_segment_end>
+            <sonic_segment_start>2</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573044498753</startTime>
+      <stepDesc null="true"/>
+      <stepId>2ea10e6188624ebe8f10742c4935f3fe</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>83d856fd02b94f388100d4a319ac063f</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>5</finishedCnt>
+    <message>Success</message>
+    <totalCount>5</totalCount>
+    <totalPage>1</totalPage>
+  </step_2_数据库多个分段step-串行正确13_组_2_数据库分段-正确_段_list>
+  <step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_error>
+  <step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>5</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>567</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044500101</endTime>
+    <failCount null="true"/>
+    <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>segment</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>sid</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>50</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+    <splitCount>5</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044499534</startTime>
+    <stepDesc null="true"/>
+    <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+    <stepName>数据库分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>f1bce81b17d44ecfa122c4a098c34c44</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_info>
+  <step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_list>
+    <allStepsCnt>5</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>310</elapsed>
+      <endKey null="true"/>
+      <endTime>1573044499962</endTime>
+      <failCount null="true"/>
+      <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+      <machineId>10.7.94.75:55616</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>100</sonic_segment_end>
+            <sonic_segment_start>2</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573044499652</startTime>
+      <stepDesc null="true"/>
+      <stepId>f1bce81b17d44ecfa122c4a098c34c44</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>6e0d33d3031e48f1b27b9362d2adc51c</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>5</finishedCnt>
+    <message>Success</message>
+    <totalCount>5</totalCount>
+    <totalPage>1</totalPage>
+  </step_2_数据库多个分段step-串行正确13_组_3_数据库分段-正确_段_list>
+  <step_2_数据库多个分段step-串行正确13_组_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_数据库多个分段step-串行正确13_组_error>
+  <step_2_数据库多个分段step-串行正确13_组_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName null="true"/>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>3</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>1527</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044500120</endTime>
+    <failCount null="true"/>
+    <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId>76de8880df9744879107eb2d3bee2827</refJobId>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>3</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044498593</startTime>
+    <stepDesc null="true"/>
+    <stepId>742b8dd39a074d96b1daef408fb29ae4</stepId>
+    <stepName>数据库多个分段step-串行正确13</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>76de8880df9744879107eb2d3bee2827</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>RF</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_数据库多个分段step-串行正确13_组_info>
+  <step_2_数据库多个分段step-串行正确13_组_list>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>5</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>365</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044499460</endTime>
+        <failCount null="true"/>
+        <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>segment</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>sid</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>50</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+        <splitCount>5</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044499095</startTime>
+        <stepDesc null="true"/>
+        <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+        <stepName>数据库分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>08c4cfdc73454cc39bba5e4747e7ae20</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>5</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>371</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044499010</endTime>
+        <failCount null="true"/>
+        <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>segment</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>sid</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>50</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+        <splitCount>5</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044498639</startTime>
+        <stepDesc null="true"/>
+        <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+        <stepName>数据库分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>2ea10e6188624ebe8f10742c4935f3fe</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>5</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>567</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044500101</endTime>
+        <failCount null="true"/>
+        <jobRunId>76de8880df9744879107eb2d3bee2827</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>segment</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>sid</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>50</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+        <splitCount>5</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044499534</startTime>
+        <stepDesc null="true"/>
+        <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+        <stepName>数据库分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>f1bce81b17d44ecfa122c4a098c34c44</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>3</totalCount>
+    <totalPage>1</totalPage>
+  </step_2_数据库多个分段step-串行正确13_组_list>
+  <step_3_数据库分段-正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_3_数据库分段-正确_段_error>
+  <step_3_数据库分段-正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>5</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>450</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044498578</endTime>
+    <failCount null="true"/>
+    <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>segment</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>sid</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.sonic.executor.spring.demo.model.User</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>50</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+    <splitCount>5</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044498128</startTime>
+    <stepDesc null="true"/>
+    <stepId>499eecb538c24129b7155ac6facc91ed</stepId>
+    <stepName>数据库分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>38f30909dad242c185de5dc6b8bf9fc6</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_3_数据库分段-正确_段_info>
+  <step_3_数据库分段-正确_段_list>
+    <allStepsCnt>5</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.sonic.executor.spring.demo.segment.sd.step.DemoSDStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>174</elapsed>
+      <endKey null="true"/>
+      <endTime>1573044498463</endTime>
+      <failCount null="true"/>
+      <jobRunId>ce78f546c0b2476ebb7d32e137fe1e28</jobRunId>
+      <machineId>10.7.94.75:55616</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>100</sonic_segment_end>
+            <sonic_segment_start>2</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.sonic.executor.spring.segment.sd.SDStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573044498289</startTime>
+      <stepDesc null="true"/>
+      <stepId>38f30909dad242c185de5dc6b8bf9fc6</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>cc70d77283784631a2be11ed68695c1c</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>5</finishedCnt>
+    <message>Success</message>
+    <totalCount>5</totalCount>
+    <totalPage>1</totalPage>
+  </step_3_数据库分段-正确_段_list>
+</resource>
+

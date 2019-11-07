@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <creator>mayym</creator>
+      <jobDesc null="true"/>
+      <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+      <jobName>复杂JOB_01</jobName>
+      <jobRunStatus null="true"/>
+      <lines>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <fromNodeId>S0003</fromNodeId>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <lineId>S0005</lineId>
+          <profile>dev</profile>
+          <secret null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <toNodeId>S0004</toNodeId>
+        </e>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <fromNodeId>S0004</fromNodeId>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <lineId>S0006</lineId>
+          <profile>dev</profile>
+          <secret null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <toNodeId>S0002</toNodeId>
+        </e>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <fromNodeId>S0002</fromNodeId>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <lineId>S0007</lineId>
+          <profile>dev</profile>
+          <secret null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <toNodeId>S0001</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <leftPos>284.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile>dev</profile>
+          <refJobId>cf53c0b77b874174af96cac7e139576b</refJobId>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>cf53c0b77b874174af96cac7e139576b</stepId>
+          <stepName>复杂STEP</stepName>
+          <stepPosId>279de26dc4de4dc4b000d8ca44b4a77e</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <topPos>256.00</topPos>
+          <width>158.00</width>
+        </e>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <leftPos>242.00</leftPos>
+          <nodeId>S0002</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile>dev</profile>
+          <refJobId>1cb891cd355f4413b336bd1410ca709a</refJobId>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+          <stepName>普通STEP串行</stepName>
+          <stepPosId>141721b03dd944f2aa6932f32c0cc1f0</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <topPos>166.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>mayym</creator>
+          <height>27.00</height>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <leftPos>208.00</leftPos>
+          <nodeId>S0003</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+          <stepName>普通STEP正确</stepName>
+          <stepPosId>f01873ba440e4e6384d8ac7e1acebed4</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <topPos>25.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>mayym</creator>
+          <height>27.00</height>
+          <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+          <leftPos>256.00</leftPos>
+          <nodeId>S0004</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+          <stepName>数据库分段正确</stepName>
+          <stepPosId>c39c65c2d2c54ccb831dfb1a4f735b0a</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          <topPos>98.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+        <createDate>2019-11-06T09:14:51.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573031692203</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>4</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+        <jobName>复杂JOB_01</jobName>
+        <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.114:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator/>
+        <profile>dev</profile>
+        <secret null="true"/>
+        <startTime>1573031691027</startTime>
+        <startType>M</startType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+        <totalCnt>4</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName null="true"/>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>2</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>521</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031692178</endTime>
+        <failCount null="true"/>
+        <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId>4d6739a984d14383a197b5de19fd6239</refJobId>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>2</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691657</startTime>
+        <stepDesc null="true"/>
+        <stepId>cf53c0b77b874174af96cac7e139576b</stepId>
+        <stepName>复杂STEP</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>4d6739a984d14383a197b5de19fd6239</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>RF</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName null="true"/>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>2</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>138</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691637</endTime>
+        <failCount null="true"/>
+        <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId>e8fa2be66b1b428fafb0a4d64e7cbdc5</refJobId>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>2</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691499</startTime>
+        <stepDesc null="true"/>
+        <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+        <stepName>普通STEP串行</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>RF</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>31</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691211</endTime>
+        <failCount null="true"/>
+        <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>acctNo</key>
+            <value>1001</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691180</startTime>
+        <stepDesc null="true"/>
+        <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+        <stepName>普通STEP正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>9a4569c2a3444917b7f5b56abc2ce680</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>4</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>215</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691480</endTime>
+        <failCount null="true"/>
+        <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>getAcctInfo</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>acct_No</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>5</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+        <splitCount>4</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691265</startTime>
+        <stepDesc null="true"/>
+        <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+        <stepName>数据库分段正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>49d0aaee00d847a5865a0ce08c4d7e1f</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+        <attention>false</attention>
+        <createTime>1571829304000</createTime>
+        <creator>mayym</creator>
+        <cronExpression null="true"/>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+        <jobName>复杂JOB_01</jobName>
+        <jobStatus null="true"/>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev</profile>
+        <secret null="true"/>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+      <jobName>复杂JOB_01</jobName>
+      <jobRunStatus>C</jobRunStatus>
+      <lines>
+        <e>
+          <fromNodeId>S0003</fromNodeId>
+          <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+          <toNodeId>S0004</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0004</fromNodeId>
+          <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+          <toNodeId>S0002</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0002</fromNodeId>
+          <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+          <toNodeId>S0001</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>284.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>复杂STEP</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+            <attrJson null="true"/>
+            <clazzName null="true"/>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>2</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>521</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573031692178</endTime>
+            <failCount>0</failCount>
+            <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+            <machineId null="true"/>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0001</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev</profile>
+            <progress>100</progress>
+            <reSegmentOnError null="true"/>
+            <refJobId>4d6739a984d14383a197b5de19fd6239</refJobId>
+            <rootJobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>2</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573031691657</startTime>
+            <stepDesc null="true"/>
+            <stepId>cf53c0b77b874174af96cac7e139576b</stepId>
+            <stepName>复杂STEP</stepName>
+            <stepPosId>279de26dc4de4dc4b000d8ca44b4a77e</stepPosId>
+            <stepRunId>4d6739a984d14383a197b5de19fd6239</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>RF</stepType>
+            <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>256.00</topPos>
+          <width>158.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>242.00</leftPos>
+          <nodeId>S0002</nodeId>
+          <nodePosType>SG</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>普通STEP串行</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+            <attrJson null="true"/>
+            <clazzName null="true"/>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>2</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>138</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573031691637</endTime>
+            <failCount>0</failCount>
+            <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+            <machineId null="true"/>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0002</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev</profile>
+            <progress>100</progress>
+            <reSegmentOnError null="true"/>
+            <refJobId>e8fa2be66b1b428fafb0a4d64e7cbdc5</refJobId>
+            <rootJobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>2</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573031691499</startTime>
+            <stepDesc null="true"/>
+            <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+            <stepName>普通STEP串行</stepName>
+            <stepPosId>141721b03dd944f2aa6932f32c0cc1f0</stepPosId>
+            <stepRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>RF</stepType>
+            <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>166.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>208.00</leftPos>
+          <nodeId>S0003</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>普通STEP正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+            <attrJson>
+              <acctNo>1001</acctNo>
+            </attrJson>
+            <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>31</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573031691211</endTime>
+            <failCount>0</failCount>
+            <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+            <machineId>b397c9e9f93c5982dc14e4b2ae188ec2</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0003</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573031691180</startTime>
+            <stepDesc null="true"/>
+            <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+            <stepName>普通STEP正确</stepName>
+            <stepPosId>f01873ba440e4e6384d8ac7e1acebed4</stepPosId>
+            <stepRunId>9a4569c2a3444917b7f5b56abc2ce680</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>NR</stepType>
+            <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>25.00</topPos>
+          <width>170.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>app</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>256.00</leftPos>
+          <nodeId>S0004</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>数据库分段正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+            <attrJson>
+              <sonic_maxSize>5</sonic_maxSize>
+              <sonic_nameSpace>com.dcits.gravity.demo.dao.AcctInfoDao</sonic_nameSpace>
+              <sonic_segmentField>acct_No</sonic_segmentField>
+              <sonic_sqlId>getAcctInfo</sonic_sqlId>
+            </attrJson>
+            <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>4</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>215</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573031691480</endTime>
+            <failCount>0</failCount>
+            <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+            <machineId>b397c9e9f93c5982dc14e4b2ae188ec2</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0004</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+            <splitCount>4</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573031691265</startTime>
+            <stepDesc null="true"/>
+            <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+            <stepName>数据库分段正确</stepName>
+            <stepPosId>c39c65c2d2c54ccb831dfb1a4f735b0a</stepPosId>
+            <stepRunId>49d0aaee00d847a5865a0ce08c4d7e1f</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>98.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data>
+      <appId>d2a57dc1d883fd21fb9951699df71cc7</appId>
+      <instruction>invokeOnce</instruction>
+      <jobId>4fa2d2bd71f64f0cbfdac0603d4e6497</jobId>
+      <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+      <operator/>
+      <profile>dev</profile>
+      <secret>8ALJdaF80ASsdASDdF778A8S8DFASsDF</secret>
+      <startType>O</startType>
+      <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+    </data>
+    <message>Success</message>
+    <startJobTimeFlag>1573031692778</startJobTimeFlag>
+  </jobCommand>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_1_普通STEP正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_1_普通STEP正确_error>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_1_普通STEP正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>34</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691836</endTime>
+    <failCount null="true"/>
+    <jobRunId>a63cd3ed685e4001a5c0da1e81619a8a</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>acctNo</key>
+        <value>1001</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691802</startTime>
+    <stepDesc null="true"/>
+    <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+    <stepName>普通STEP正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>07c964f9207d4f93b4f05805c08a8514</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_1_普通STEP正确_info>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_2_普通STEP正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_2_普通STEP正确_error>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_2_普通STEP正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>36</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691760</endTime>
+    <failCount null="true"/>
+    <jobRunId>a63cd3ed685e4001a5c0da1e81619a8a</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>acctNo</key>
+        <value>1001</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691724</startTime>
+    <stepDesc null="true"/>
+    <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+    <stepName>普通STEP正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>4902b35e26ca41fb8d1732345b4abd8a</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_2_普通STEP正确_info>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_error>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName null="true"/>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>2</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>183</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691861</endTime>
+    <failCount null="true"/>
+    <jobRunId>4d6739a984d14383a197b5de19fd6239</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId>a63cd3ed685e4001a5c0da1e81619a8a</refJobId>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>2</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691678</startTime>
+    <stepDesc null="true"/>
+    <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+    <stepName>普通STEP串行</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>a63cd3ed685e4001a5c0da1e81619a8a</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>RF</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_info>
+  <step_1_复杂STEP_组_1_普通STEP串行_组_list>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>34</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691836</endTime>
+        <failCount null="true"/>
+        <jobRunId>a63cd3ed685e4001a5c0da1e81619a8a</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>acctNo</key>
+            <value>1001</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691802</startTime>
+        <stepDesc null="true"/>
+        <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+        <stepName>普通STEP正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>07c964f9207d4f93b4f05805c08a8514</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>36</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691760</endTime>
+        <failCount null="true"/>
+        <jobRunId>a63cd3ed685e4001a5c0da1e81619a8a</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>acctNo</key>
+            <value>1001</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691724</startTime>
+        <stepDesc null="true"/>
+        <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+        <stepName>普通STEP正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>4902b35e26ca41fb8d1732345b4abd8a</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>2</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_复杂STEP_组_1_普通STEP串行_组_list>
+  <step_1_复杂STEP_组_2_数据库分段正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_复杂STEP_组_2_数据库分段正确_段_error>
+  <step_1_复杂STEP_组_2_数据库分段正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>4</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>252</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031692161</endTime>
+    <failCount null="true"/>
+    <jobRunId>4d6739a984d14383a197b5de19fd6239</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>getAcctInfo</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>acct_No</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>5</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+    <splitCount>4</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691909</startTime>
+    <stepDesc null="true"/>
+    <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+    <stepName>数据库分段正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>f0f379161b9d409e9c3d15007a2a391d</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_复杂STEP_组_2_数据库分段正确_段_info>
+  <step_1_复杂STEP_组_2_数据库分段正确_段_list>
+    <allStepsCnt>4</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>30</elapsed>
+      <endKey null="true"/>
+      <endTime>1573031692063</endTime>
+      <failCount null="true"/>
+      <jobRunId>4d6739a984d14383a197b5de19fd6239</jobRunId>
+      <machineId>10.7.84.147:62944</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>1005</sonic_segment_end>
+            <sonic_segment_start>1001</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573031692033</startTime>
+      <stepDesc null="true"/>
+      <stepId>f0f379161b9d409e9c3d15007a2a391d</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>0397ba3883a54137bb9f2a54dad75c07</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>4</finishedCnt>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_复杂STEP_组_2_数据库分段正确_段_list>
+  <step_1_复杂STEP_组_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_复杂STEP_组_error>
+  <step_1_复杂STEP_组_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName null="true"/>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>2</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>521</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031692178</endTime>
+    <failCount null="true"/>
+    <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId>4d6739a984d14383a197b5de19fd6239</refJobId>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>2</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691657</startTime>
+    <stepDesc null="true"/>
+    <stepId>cf53c0b77b874174af96cac7e139576b</stepId>
+    <stepName>复杂STEP</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>4d6739a984d14383a197b5de19fd6239</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>RF</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_1_复杂STEP_组_info>
+  <step_1_复杂STEP_组_list>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName null="true"/>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>2</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>183</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691861</endTime>
+        <failCount null="true"/>
+        <jobRunId>4d6739a984d14383a197b5de19fd6239</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params/>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId>a63cd3ed685e4001a5c0da1e81619a8a</refJobId>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>2</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691678</startTime>
+        <stepDesc null="true"/>
+        <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+        <stepName>普通STEP串行</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>a63cd3ed685e4001a5c0da1e81619a8a</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>RF</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>4</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>252</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031692161</endTime>
+        <failCount null="true"/>
+        <jobRunId>4d6739a984d14383a197b5de19fd6239</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_sqlId</key>
+            <value>getAcctInfo</value>
+          </e>
+          <e>
+            <key>sonic_segmentField</key>
+            <value>acct_No</value>
+          </e>
+          <e>
+            <key>sonic_nameSpace</key>
+            <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>5</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+        <splitCount>4</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691909</startTime>
+        <stepDesc null="true"/>
+        <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+        <stepName>数据库分段正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>f0f379161b9d409e9c3d15007a2a391d</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>2</totalCount>
+    <totalPage>1</totalPage>
+  </step_1_复杂STEP_组_list>
+  <step_2_普通STEP串行_组_1_普通STEP正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_普通STEP串行_组_1_普通STEP正确_error>
+  <step_2_普通STEP串行_组_1_普通STEP正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>27</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691619</endTime>
+    <failCount null="true"/>
+    <jobRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>acctNo</key>
+        <value>1001</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691592</startTime>
+    <stepDesc null="true"/>
+    <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+    <stepName>普通STEP正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>238234d013f64c81b994e62d82dc0f73</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_2_普通STEP串行_组_1_普通STEP正确_info>
+  <step_2_普通STEP串行_组_2_普通STEP正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_普通STEP串行_组_2_普通STEP正确_error>
+  <step_2_普通STEP串行_组_2_普通STEP正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>30</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691557</endTime>
+    <failCount null="true"/>
+    <jobRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>acctNo</key>
+        <value>1001</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691527</startTime>
+    <stepDesc null="true"/>
+    <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+    <stepName>普通STEP正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>657edda8fe6e41debffa0620edb9a031</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_2_普通STEP串行_组_2_普通STEP正确_info>
+  <step_2_普通STEP串行_组_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_普通STEP串行_组_error>
+  <step_2_普通STEP串行_组_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName null="true"/>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>2</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>138</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691637</endTime>
+    <failCount null="true"/>
+    <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params/>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId>e8fa2be66b1b428fafb0a4d64e7cbdc5</refJobId>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>2</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691499</startTime>
+    <stepDesc null="true"/>
+    <stepId>1cb891cd355f4413b336bd1410ca709a</stepId>
+    <stepName>普通STEP串行</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>RF</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_2_普通STEP串行_组_info>
+  <step_2_普通STEP串行_组_list>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>27</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691619</endTime>
+        <failCount null="true"/>
+        <jobRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>acctNo</key>
+            <value>1001</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691592</startTime>
+        <stepDesc null="true"/>
+        <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+        <stepName>普通STEP正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>238234d013f64c81b994e62d82dc0f73</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>30</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573031691557</endTime>
+        <failCount null="true"/>
+        <jobRunId>e8fa2be66b1b428fafb0a4d64e7cbdc5</jobRunId>
+        <machineId>10.7.84.147:62944</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>acctNo</key>
+            <value>1001</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573031691527</startTime>
+        <stepDesc null="true"/>
+        <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+        <stepName>普通STEP正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>657edda8fe6e41debffa0620edb9a031</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>2</totalCount>
+    <totalPage>1</totalPage>
+  </step_2_普通STEP串行_组_list>
+  <step_3_普通STEP正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_3_普通STEP正确_error>
+  <step_3_普通STEP正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.normal.DemoNormalStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>31</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691211</endTime>
+    <failCount null="true"/>
+    <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>acctNo</key>
+        <value>1001</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691180</startTime>
+    <stepDesc null="true"/>
+    <stepId>ea1e17979b8d4ab3a0528dde5c1f5767</stepId>
+    <stepName>普通STEP正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>9a4569c2a3444917b7f5b56abc2ce680</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_3_普通STEP正确_info>
+  <step_4_数据库分段正确_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_4_数据库分段正确_段_error>
+  <step_4_数据库分段正确_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>4</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>215</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573031691480</endTime>
+    <failCount null="true"/>
+    <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+    <machineId>10.7.84.147:62944</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_sqlId</key>
+        <value>getAcctInfo</value>
+      </e>
+      <e>
+        <key>sonic_segmentField</key>
+        <value>acct_No</value>
+      </e>
+      <e>
+        <key>sonic_nameSpace</key>
+        <value>com.dcits.gravity.demo.dao.AcctInfoDao</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>5</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+    <splitCount>4</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573031691265</startTime>
+    <stepDesc null="true"/>
+    <stepId>195ff3b7909f4341bb6e7608115a0645</stepId>
+    <stepName>数据库分段正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>49d0aaee00d847a5865a0ce08c4d7e1f</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+  </step_4_数据库分段正确_段_info>
+  <step_4_数据库分段正确_段_list>
+    <allStepsCnt>4</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <appId null="true"/>
+      <attrJson null="true"/>
+      <clazzName>com.dcits.gravity.demo.job.segment.db.executor.DemoDbStepExecutor</clazzName>
+      <createDate>2019-11-06T00:00:00.000+0000</createDate>
+      <createTime null="true"/>
+      <creator null="true"/>
+      <currentCount>0</currentCount>
+      <dataCenter null="true"/>
+      <dynamicAttrJson null="true"/>
+      <elapsed>72</elapsed>
+      <endKey null="true"/>
+      <endTime>1573031691422</endTime>
+      <failCount null="true"/>
+      <jobRunId>4ebfc36c0cbe43d9ad1b12988b4bbb96</jobRunId>
+      <machineId>10.7.84.147:62944</machineId>
+      <metricsJson null="true"/>
+      <modify null="true"/>
+      <modifyTime null="true"/>
+      <nodeId null="true"/>
+      <params>
+        <e>
+          <key>sonic_db_seg_map</key>
+          <value>
+            <sonic_segment_end>1005</sonic_segment_end>
+            <sonic_segment_start>1001</sonic_segment_start>
+          </value>
+        </e>
+      </params>
+      <parentRunId null="true"/>
+      <profile null="true"/>
+      <progress>100</progress>
+      <reSegmentOnError null="true"/>
+      <refJobId null="true"/>
+      <rootJobRunId null="true"/>
+      <secret null="true"/>
+      <seqNo>1</seqNo>
+      <splitClazzName>com.dcits.gravity.demo.job.segment.db.doSegment.DemoDbStepSegmenter</splitClazzName>
+      <splitCount>0</splitCount>
+      <startKey null="true"/>
+      <startTime>1573031691350</startTime>
+      <stepDesc null="true"/>
+      <stepId>49d0aaee00d847a5865a0ce08c4d7e1f</stepId>
+      <stepName null="true"/>
+      <stepPosId null="true"/>
+      <stepRunId>546a3c79b1224f4ea1b3f5edd9c67c4f</stepRunId>
+      <stepSkipStrategy null="true"/>
+      <stepStatus>C</stepStatus>
+      <stepType>SD</stepType>
+      <tenantId>cc38c271e5fb4e64959b06cd6e105566</tenantId>
+    </data>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>4</finishedCnt>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </step_4_数据库分段正确_段_list>
+</resource>
+

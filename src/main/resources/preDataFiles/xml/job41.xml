@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator>Author</creator>
+      <jobDesc null="true"/>
+      <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+      <jobName>Y-TXT文件合并测试41</jobName>
+      <jobRunStatus null="true"/>
+      <lines>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0032</fromNodeId>
+          <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+          <lineId>S0036</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0034</toNodeId>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0033</fromNodeId>
+          <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+          <lineId>S0038</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0034</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+          <leftPos>12.00</leftPos>
+          <nodeId>S0032</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>db1cac2614454a28b08d52f6346b4d9c</stepId>
+          <stepName>TXT文件分段-正确03</stepName>
+          <stepPosId>f9ee9ba47625414f83acfdcdca9d0dee</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>158.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+          <leftPos>228.00</leftPos>
+          <nodeId>S0033</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>TXT文件分段-正确</stepDesc>
+          <stepId>283ff35efaae4c7cac7539fdab2470df</stepId>
+          <stepName>TXT文件分段-正确04</stepName>
+          <stepPosId>7545a75e33b041618d98c6307f01ee4d</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>145.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+          <leftPos>136.00</leftPos>
+          <nodeId>S0034</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>TXT文件合并分段-正确</stepDesc>
+          <stepId>e90ed9ce8b5d44a58a9c82ee06d178dc</stepId>
+          <stepName>TXT文件合并分段-正确</stepName>
+          <stepPosId>4f8eca3604494092802682bebeea79d0</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>241.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T12:49:21.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573044561373</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>3</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+        <jobName>Y-TXT文件合并测试41</jobName>
+        <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.111:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573044561014</startTime>
+        <startType>M</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>3</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>69</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044561202</endTime>
+        <failCount null="true"/>
+        <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test2</value>
+          </e>
+          <e>
+            <key>sonic_originalFileName</key>
+            <value>test1.txt</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>10</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044561133</startTime>
+        <stepDesc null="true"/>
+        <stepId>db1cac2614454a28b08d52f6346b4d9c</stepId>
+        <stepName>TXT文件分段-正确03</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>28958ae13e9e4257a30fdf43c17c7de8</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>88</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044561229</endTime>
+        <failCount null="true"/>
+        <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test2</value>
+          </e>
+          <e>
+            <key>sonic_originalFileName</key>
+            <value>test2.txt</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>10</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044561141</startTime>
+        <stepDesc>TXT文件分段-正确</stepDesc>
+        <stepId>283ff35efaae4c7cac7539fdab2470df</stepId>
+        <stepName>TXT文件分段-正确04</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>908159f839344e69aa089486e6f56a31</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>52</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044561344</endTime>
+        <failCount null="true"/>
+        <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test2</value>
+          </e>
+          <e>
+            <key>sonic_targetFileFormat</key>
+            <value>TEST</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST</value>
+          </e>
+          <e>
+            <key>sonic_targetFileName</key>
+            <value>test99.txt</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044561292</startTime>
+        <stepDesc>TXT文件合并分段-正确</stepDesc>
+        <stepId>e90ed9ce8b5d44a58a9c82ee06d178dc</stepId>
+        <stepName>TXT文件合并分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>ec217514911747c7931776b1c34d2453</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>3</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <attention>false</attention>
+        <createTime>1561645140000</createTime>
+        <creator>Author</creator>
+        <cronExpression null="true"/>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+        <jobName>Y-TXT文件合并测试41</jobName>
+        <jobStatus>S</jobStatus>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+      <jobName>Y-TXT文件合并测试41</jobName>
+      <jobRunStatus>C</jobRunStatus>
+      <lines>
+        <e>
+          <fromNodeId>S0032</fromNodeId>
+          <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+          <toNodeId>S0034</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0033</fromNodeId>
+          <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+          <toNodeId>S0034</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>12.00</leftPos>
+          <nodeId>S0032</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>TXT文件分段-正确03</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test2</sonic_filePath>
+              <sonic_maxSize>10</sonic_maxSize>
+              <sonic_originalFileFormat>TEST</sonic_originalFileFormat>
+              <sonic_originalFileName>test1.txt</sonic_originalFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>69</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044561202</endTime>
+            <failCount>0</failCount>
+            <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0032</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>315ed84162534fc8b0ffa92cbc27b300</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044561133</startTime>
+            <stepDesc null="true"/>
+            <stepId>db1cac2614454a28b08d52f6346b4d9c</stepId>
+            <stepName>TXT文件分段-正确03</stepName>
+            <stepPosId>f9ee9ba47625414f83acfdcdca9d0dee</stepPosId>
+            <stepRunId>28958ae13e9e4257a30fdf43c17c7de8</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>158.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>228.00</leftPos>
+          <nodeId>S0033</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>TXT文件分段-正确</stepDesc>
+          <stepId null="true"/>
+          <stepName>TXT文件分段-正确04</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test2</sonic_filePath>
+              <sonic_maxSize>10</sonic_maxSize>
+              <sonic_originalFileFormat>TEST</sonic_originalFileFormat>
+              <sonic_originalFileName>test2.txt</sonic_originalFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>88</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044561229</endTime>
+            <failCount>0</failCount>
+            <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0033</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>315ed84162534fc8b0ffa92cbc27b300</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044561141</startTime>
+            <stepDesc>TXT文件分段-正确</stepDesc>
+            <stepId>283ff35efaae4c7cac7539fdab2470df</stepId>
+            <stepName>TXT文件分段-正确04</stepName>
+            <stepPosId>7545a75e33b041618d98c6307f01ee4d</stepPosId>
+            <stepRunId>908159f839344e69aa089486e6f56a31</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>145.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>136.00</leftPos>
+          <nodeId>S0034</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>TXT文件合并分段-正确</stepDesc>
+          <stepId null="true"/>
+          <stepName>TXT文件合并分段-正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test2</sonic_filePath>
+              <sonic_originalFileFormat>TEST</sonic_originalFileFormat>
+              <sonic_targetFileFormat>TEST</sonic_targetFileFormat>
+              <sonic_targetFileName>test99.txt</sonic_targetFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>52</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044561344</endTime>
+            <failCount>0</failCount>
+            <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0034</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>315ed84162534fc8b0ffa92cbc27b300</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044561292</startTime>
+            <stepDesc>TXT文件合并分段-正确</stepDesc>
+            <stepId>e90ed9ce8b5d44a58a9c82ee06d178dc</stepId>
+            <stepName>TXT文件合并分段-正确</stepName>
+            <stepPosId>4f8eca3604494092802682bebeea79d0</stepPosId>
+            <stepRunId>ec217514911747c7931776b1c34d2453</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>NR</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>241.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <instruction>invokeOnce</instruction>
+      <jobId>50f7d4d74460439bab3fe5cf4420a488</jobId>
+      <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+      <operator/>
+      <profile>dev_test</profile>
+      <secret/>
+      <startType/>
+      <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+    </data>
+    <message>Success</message>
+    <startJobTimeFlag>1573044562758</startJobTimeFlag>
+  </jobCommand>
+  <step_1_TXT文件分段-正确03_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_TXT文件分段-正确03_段_error>
+  <step_1_TXT文件分段-正确03_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>69</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044561202</endTime>
+    <failCount null="true"/>
+    <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test2</value>
+      </e>
+      <e>
+        <key>sonic_originalFileName</key>
+        <value>test1.txt</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>10</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044561133</startTime>
+    <stepDesc null="true"/>
+    <stepId>db1cac2614454a28b08d52f6346b4d9c</stepId>
+    <stepName>TXT文件分段-正确03</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>28958ae13e9e4257a30fdf43c17c7de8</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_1_TXT文件分段-正确03_段_info>
+  <step_1_TXT文件分段-正确03_段_list>
+    <allStepsCnt>0</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>0</finishedCnt>
+    <message>Success</message>
+    <totalCount>0</totalCount>
+    <totalPage>0</totalPage>
+  </step_1_TXT文件分段-正确03_段_list>
+  <step_2_TXT文件分段-正确04_段_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_2_TXT文件分段-正确04_段_error>
+  <step_2_TXT文件分段-正确04_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>88</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044561229</endTime>
+    <failCount null="true"/>
+    <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test2</value>
+      </e>
+      <e>
+        <key>sonic_originalFileName</key>
+        <value>test2.txt</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>10</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044561141</startTime>
+    <stepDesc>TXT文件分段-正确</stepDesc>
+    <stepId>283ff35efaae4c7cac7539fdab2470df</stepId>
+    <stepName>TXT文件分段-正确04</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>908159f839344e69aa089486e6f56a31</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_TXT文件分段-正确04_段_info>
+  <step_2_TXT文件分段-正确04_段_list>
+    <allStepsCnt>0</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>0</finishedCnt>
+    <message>Success</message>
+    <totalCount>0</totalCount>
+    <totalPage>0</totalPage>
+  </step_2_TXT文件分段-正确04_段_list>
+  <step_3_TXT文件合并分段-正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_3_TXT文件合并分段-正确_error>
+  <step_3_TXT文件合并分段-正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>52</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044561344</endTime>
+    <failCount null="true"/>
+    <jobRunId>315ed84162534fc8b0ffa92cbc27b300</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test2</value>
+      </e>
+      <e>
+        <key>sonic_targetFileFormat</key>
+        <value>TEST</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST</value>
+      </e>
+      <e>
+        <key>sonic_targetFileName</key>
+        <value>test99.txt</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044561292</startTime>
+    <stepDesc>TXT文件合并分段-正确</stepDesc>
+    <stepId>e90ed9ce8b5d44a58a9c82ee06d178dc</stepId>
+    <stepName>TXT文件合并分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>ec217514911747c7931776b1c34d2453</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_3_TXT文件合并分段-正确_info>
+</resource>
+

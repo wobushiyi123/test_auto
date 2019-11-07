@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator>Author</creator>
+      <jobDesc null="true"/>
+      <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+      <jobName>Y-EXCEL文件合并测试-job25</jobName>
+      <jobRunStatus null="true"/>
+      <lines>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0010</fromNodeId>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <lineId>S0018</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0009</fromNodeId>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <lineId>S0019</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <fromNodeId>S0011</fromNodeId>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <lineId>S0020</lineId>
+          <profile>dev_test</profile>
+          <secret null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <leftPos>46.00</leftPos>
+          <nodeId>S0009</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>EXCEL文件分段-正确01</stepDesc>
+          <stepId>74d031c1a252416093d5a21984216c0f</stepId>
+          <stepName>EXCEL文件分段-正确01</stepName>
+          <stepPosId>d8cc47234405427b833eba6420b6cbb4</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>125.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <leftPos>172.00</leftPos>
+          <nodeId>S0010</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>EXCEL文件分段-正确02</stepDesc>
+          <stepId>522246a943f4464e83ea2a233f318c2a</stepId>
+          <stepName>EXCEL文件分段-正确02</stepName>
+          <stepPosId>c17a7c0b002346889c7efca0583ffc33</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>74.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <leftPos>340.00</leftPos>
+          <nodeId>S0011</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>EXCEL文件分段-正确03</stepDesc>
+          <stepId>6581e13d35b640068bb0508fa4a0f610</stepId>
+          <stepName>EXCEL文件分段-正确03</stepName>
+          <stepPosId>07bbc2d9860148aeb179c2b14f01498b</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>120.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>Author</creator>
+          <height>27.00</height>
+          <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+          <leftPos>144.00</leftPos>
+          <nodeId>S0017</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc>TXTandEXCEL文件合并分段-正确</stepDesc>
+          <stepId>56f222f4d8e94bcaacd927085e2cebf9</stepId>
+          <stepName>EXCEL文件合并分段-正确</stepName>
+          <stepPosId>8d7ab7ef5be54b6480db40e957410ebb</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>235.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T11:37:24.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573044484979</endTime>
+        <failCnt>3</failCnt>
+        <finishedCnt>0</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+        <jobName>Y-EXCEL文件合并测试-job25</jobName>
+        <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+        <jobStatus>F</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.114:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573040243848</startTime>
+        <startType>M</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>4</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>60</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044484937</endTime>
+        <failCount null="true"/>
+        <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test3</value>
+          </e>
+          <e>
+            <key>sonic_originalFileName</key>
+            <value>test77.xlsx</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST1</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>10</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>0</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044484877</startTime>
+        <stepDesc>EXCEL文件分段-正确01</stepDesc>
+        <stepId>74d031c1a252416093d5a21984216c0f</stepId>
+        <stepName>EXCEL文件分段-正确01</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>695c25fa2ee046ba9008a415e446fa17</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>F</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>61</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044484962</endTime>
+        <failCount null="true"/>
+        <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test3</value>
+          </e>
+          <e>
+            <key>sonic_originalFileName</key>
+            <value>test88.xlsx</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST1</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>10</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>0</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044484901</startTime>
+        <stepDesc>EXCEL文件分段-正确02</stepDesc>
+        <stepId>522246a943f4464e83ea2a233f318c2a</stepId>
+        <stepName>EXCEL文件分段-正确02</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>8009525cb08047a38e3fbe41701fc637</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>F</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>39</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573044484915</endTime>
+        <failCount null="true"/>
+        <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+        <machineId>10.7.94.75:55616</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test3</value>
+          </e>
+          <e>
+            <key>sonic_originalFileName</key>
+            <value>test99.xlsx</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST1</value>
+          </e>
+          <e>
+            <key>sonic_maxSize</key>
+            <value>10</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>0</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573044484876</startTime>
+        <stepDesc>EXCEL文件分段-正确03</stepDesc>
+        <stepId>6581e13d35b640068bb0508fa4a0f610</stepId>
+        <stepName>EXCEL文件分段-正确03</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>013bc6d7946441429826b6c9c5cc036e</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>F</stepStatus>
+        <stepType>SD</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed null="true"/>
+        <endKey>0</endKey>
+        <endTime null="true"/>
+        <failCount null="true"/>
+        <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+        <machineId null="true"/>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>sonic_filePath</key>
+            <value>D:\idea3.0\test3</value>
+          </e>
+          <e>
+            <key>sonic_targetFileFormat</key>
+            <value>TEST1</value>
+          </e>
+          <e>
+            <key>sonic_originalFileFormat</key>
+            <value>TEST1</value>
+          </e>
+          <e>
+            <key>sonic_targetFileName</key>
+            <value>test1.xlsx</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>0</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime null="true"/>
+        <stepDesc>TXTandEXCEL文件合并分段-正确</stepDesc>
+        <stepId>56f222f4d8e94bcaacd927085e2cebf9</stepId>
+        <stepName>EXCEL文件合并分段-正确</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>baccef8454ad4b83b805bed55abec19d</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>N</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <attention>false</attention>
+        <createTime>1561652654000</createTime>
+        <creator>Author</creator>
+        <cronExpression null="true"/>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+        <jobName>Y-EXCEL文件合并测试-job25</jobName>
+        <jobStatus null="true"/>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>dc7e73d803c84c0dbc244dd3c812f791</jobId>
+      <jobName>Y-EXCEL文件合并测试-job25</jobName>
+      <jobRunStatus>F</jobRunStatus>
+      <lines>
+        <e>
+          <fromNodeId>S0010</fromNodeId>
+          <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0009</fromNodeId>
+          <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+        <e>
+          <fromNodeId>S0011</fromNodeId>
+          <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+          <toNodeId>S0017</toNodeId>
+        </e>
+      </lines>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>46.00</leftPos>
+          <nodeId>S0009</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>EXCEL文件分段-正确01</stepDesc>
+          <stepId null="true"/>
+          <stepName>EXCEL文件分段-正确01</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test3</sonic_filePath>
+              <sonic_maxSize>10</sonic_maxSize>
+              <sonic_originalFileFormat>TEST1</sonic_originalFileFormat>
+              <sonic_originalFileName>test77.xlsx</sonic_originalFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>60</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044484937</endTime>
+            <failCount>0</failCount>
+            <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0009</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>0</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>65adfe578e5f436998920fdbb9007f55</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044484877</startTime>
+            <stepDesc>EXCEL文件分段-正确01</stepDesc>
+            <stepId>74d031c1a252416093d5a21984216c0f</stepId>
+            <stepName>EXCEL文件分段-正确01</stepName>
+            <stepPosId>d8cc47234405427b833eba6420b6cbb4</stepPosId>
+            <stepRunId>695c25fa2ee046ba9008a415e446fa17</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>F</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>125.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>172.00</leftPos>
+          <nodeId>S0010</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>EXCEL文件分段-正确02</stepDesc>
+          <stepId null="true"/>
+          <stepName>EXCEL文件分段-正确02</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test3</sonic_filePath>
+              <sonic_maxSize>10</sonic_maxSize>
+              <sonic_originalFileFormat>TEST1</sonic_originalFileFormat>
+              <sonic_originalFileName>test88.xlsx</sonic_originalFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>61</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044484962</endTime>
+            <failCount>0</failCount>
+            <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0010</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>0</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>65adfe578e5f436998920fdbb9007f55</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044484901</startTime>
+            <stepDesc>EXCEL文件分段-正确02</stepDesc>
+            <stepId>522246a943f4464e83ea2a233f318c2a</stepId>
+            <stepName>EXCEL文件分段-正确02</stepName>
+            <stepPosId>c17a7c0b002346889c7efca0583ffc33</stepPosId>
+            <stepRunId>8009525cb08047a38e3fbe41701fc637</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>F</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>74.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>340.00</leftPos>
+          <nodeId>S0011</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>EXCEL文件分段-正确03</stepDesc>
+          <stepId null="true"/>
+          <stepName>EXCEL文件分段-正确03</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test3</sonic_filePath>
+              <sonic_maxSize>10</sonic_maxSize>
+              <sonic_originalFileFormat>TEST1</sonic_originalFileFormat>
+              <sonic_originalFileName>test99.xlsx</sonic_originalFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>39</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573044484915</endTime>
+            <failCount>0</failCount>
+            <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0011</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>0</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>65adfe578e5f436998920fdbb9007f55</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573044484876</startTime>
+            <stepDesc>EXCEL文件分段-正确03</stepDesc>
+            <stepId>6581e13d35b640068bb0508fa4a0f610</stepId>
+            <stepName>EXCEL文件分段-正确03</stepName>
+            <stepPosId>07bbc2d9860148aeb179c2b14f01498b</stepPosId>
+            <stepRunId>013bc6d7946441429826b6c9c5cc036e</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>F</stepStatus>
+            <stepType>SD</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>120.00</topPos>
+          <width>180.00</width>
+        </e>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>144.00</leftPos>
+          <nodeId>S0017</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc>TXTandEXCEL文件合并分段-正确</stepDesc>
+          <stepId null="true"/>
+          <stepName>EXCEL文件合并分段-正确</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <sonic_filePath>D:\idea3.0\test3</sonic_filePath>
+              <sonic_originalFileFormat>TEST1</sonic_originalFileFormat>
+              <sonic_targetFileFormat>TEST1</sonic_targetFileFormat>
+              <sonic_targetFileName>test1.xlsx</sonic_targetFileName>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed null="true"/>
+            <endKey>0</endKey>
+            <endTime null="true"/>
+            <failCount>0</failCount>
+            <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+            <machineId null="true"/>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0017</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>0</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>65adfe578e5f436998920fdbb9007f55</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime null="true"/>
+            <stepDesc>TXTandEXCEL文件合并分段-正确</stepDesc>
+            <stepId>56f222f4d8e94bcaacd927085e2cebf9</stepId>
+            <stepName>EXCEL文件合并分段-正确</stepName>
+            <stepPosId>8d7ab7ef5be54b6480db40e957410ebb</stepPosId>
+            <stepRunId>baccef8454ad4b83b805bed55abec19d</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>N</stepStatus>
+            <stepType>NR</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>235.00</topPos>
+          <width>180.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data null="true"/>
+    <message>Success</message>
+    <startJobTimeFlag>1573044486502</startJobTimeFlag>
+  </jobCommand>
+  <step_1_EXCEL文件分段-正确01_段_error>
+    <code>0000</code>
+    <data>
+      <e>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime>1573044484933</createTime>
+        <errorType>B</errorType>
+        <id>61c83573af0947df8df372782b2d572f</id>
+        <machineId>10.7.94.75:55616</machineId>
+        <message>文件不存在！</message>
+        <seqNo>0</seqNo>
+        <stack>文件不存在！
+java.lang.RuntimeException: 文件不存在！&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getWorkbook(ExcelFileParse.java:247)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getExcelRowCount(ExcelFileParse.java:416)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.split(ExcelFileParse.java:377)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileParseUtils.split(FileParseUtils.java:297)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter.doSegment(FileStepSegmenter.java:35)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:16)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:11)&#xd;
+	at com.dcits.sonic.executor.net.handler.RemoteStartNotificationRequestHandler.handle(RemoteStartNotificationRequestHandler.java:99)&#xd;
+	at com.dcits.sonic.executor.net.NotificationDispatcherProcessor.processRequest(NotificationDispatcherProcessor.java:30)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.OnceRequestProcessor.doProcessor(OnceRequestProcessor.java:25)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.AbstractRequestProcessor.process(AbstractRequestProcessor.java:48)&#xd;
+	at com.dcits.sonic.remoting.wormhole.WormholeProcessor.lambda$process$0(WormholeProcessor.java:85)&#xd;
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+</stack>
+        <stepRunId>695c25fa2ee046ba9008a415e446fa17</stepRunId>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+  </step_1_EXCEL文件分段-正确01_段_error>
+  <step_1_EXCEL文件分段-正确01_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>60</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044484937</endTime>
+    <failCount null="true"/>
+    <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test3</value>
+      </e>
+      <e>
+        <key>sonic_originalFileName</key>
+        <value>test77.xlsx</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST1</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>10</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>0</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044484877</startTime>
+    <stepDesc>EXCEL文件分段-正确01</stepDesc>
+    <stepId>74d031c1a252416093d5a21984216c0f</stepId>
+    <stepName>EXCEL文件分段-正确01</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>695c25fa2ee046ba9008a415e446fa17</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>F</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_1_EXCEL文件分段-正确01_段_info>
+  <step_1_EXCEL文件分段-正确01_段_list>
+    <allStepsCnt>0</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>0</finishedCnt>
+    <message>Success</message>
+    <totalCount>0</totalCount>
+    <totalPage>0</totalPage>
+  </step_1_EXCEL文件分段-正确01_段_list>
+  <step_2_EXCEL文件分段-正确02_段_error>
+    <code>0000</code>
+    <data>
+      <e>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime>1573044484956</createTime>
+        <errorType>B</errorType>
+        <id>87afeffb921f40ce837cb8f3bdc0127b</id>
+        <machineId>10.7.94.75:55616</machineId>
+        <message>文件不存在！</message>
+        <seqNo>0</seqNo>
+        <stack>文件不存在！
+java.lang.RuntimeException: 文件不存在！&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getWorkbook(ExcelFileParse.java:247)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getExcelRowCount(ExcelFileParse.java:416)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.split(ExcelFileParse.java:377)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileParseUtils.split(FileParseUtils.java:297)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter.doSegment(FileStepSegmenter.java:35)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:16)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:11)&#xd;
+	at com.dcits.sonic.executor.net.handler.RemoteStartNotificationRequestHandler.handle(RemoteStartNotificationRequestHandler.java:99)&#xd;
+	at com.dcits.sonic.executor.net.NotificationDispatcherProcessor.processRequest(NotificationDispatcherProcessor.java:30)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.OnceRequestProcessor.doProcessor(OnceRequestProcessor.java:25)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.AbstractRequestProcessor.process(AbstractRequestProcessor.java:48)&#xd;
+	at com.dcits.sonic.remoting.wormhole.WormholeProcessor.lambda$process$0(WormholeProcessor.java:85)&#xd;
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+</stack>
+        <stepRunId>8009525cb08047a38e3fbe41701fc637</stepRunId>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+  </step_2_EXCEL文件分段-正确02_段_error>
+  <step_2_EXCEL文件分段-正确02_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>61</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044484962</endTime>
+    <failCount null="true"/>
+    <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test3</value>
+      </e>
+      <e>
+        <key>sonic_originalFileName</key>
+        <value>test88.xlsx</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST1</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>10</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>0</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044484901</startTime>
+    <stepDesc>EXCEL文件分段-正确02</stepDesc>
+    <stepId>522246a943f4464e83ea2a233f318c2a</stepId>
+    <stepName>EXCEL文件分段-正确02</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>8009525cb08047a38e3fbe41701fc637</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>F</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_2_EXCEL文件分段-正确02_段_info>
+  <step_2_EXCEL文件分段-正确02_段_list>
+    <allStepsCnt>0</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>0</finishedCnt>
+    <message>Success</message>
+    <totalCount>0</totalCount>
+    <totalPage>0</totalPage>
+  </step_2_EXCEL文件分段-正确02_段_list>
+  <step_3_EXCEL文件分段-正确03_段_error>
+    <code>0000</code>
+    <data>
+      <e>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime>1573044484909</createTime>
+        <errorType>B</errorType>
+        <id>10238c4cd9554a619ddeb8300e5c132f</id>
+        <machineId>10.7.94.75:55616</machineId>
+        <message>文件不存在！</message>
+        <seqNo>0</seqNo>
+        <stack>文件不存在！
+java.lang.RuntimeException: 文件不存在！&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getWorkbook(ExcelFileParse.java:247)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.getExcelRowCount(ExcelFileParse.java:416)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.parse.ExcelFileParse.split(ExcelFileParse.java:377)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileParseUtils.split(FileParseUtils.java:297)&#xd;
+	at com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter.doSegment(FileStepSegmenter.java:35)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:16)&#xd;
+	at com.dcits.sonic.executor.step.segment.AbstractStepSegmenter.execute(AbstractStepSegmenter.java:11)&#xd;
+	at com.dcits.sonic.executor.net.handler.RemoteStartNotificationRequestHandler.handle(RemoteStartNotificationRequestHandler.java:99)&#xd;
+	at com.dcits.sonic.executor.net.NotificationDispatcherProcessor.processRequest(NotificationDispatcherProcessor.java:30)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.OnceRequestProcessor.doProcessor(OnceRequestProcessor.java:25)&#xd;
+	at com.dcits.sonic.remoting.wormhole.process.request.AbstractRequestProcessor.process(AbstractRequestProcessor.java:48)&#xd;
+	at com.dcits.sonic.remoting.wormhole.WormholeProcessor.lambda$process$0(WormholeProcessor.java:85)&#xd;
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+</stack>
+        <stepRunId>013bc6d7946441429826b6c9c5cc036e</stepRunId>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+  </step_3_EXCEL文件分段-正确03_段_error>
+  <step_3_EXCEL文件分段-正确03_段_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.segment.file.step.DemoFileStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>39</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573044484915</endTime>
+    <failCount null="true"/>
+    <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+    <machineId>10.7.94.75:55616</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test3</value>
+      </e>
+      <e>
+        <key>sonic_originalFileName</key>
+        <value>test99.xlsx</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST1</value>
+      </e>
+      <e>
+        <key>sonic_maxSize</key>
+        <value>10</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>0</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName>com.dcits.sonic.executor.spring.segment.file.FileStepSegmenter</splitClazzName>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573044484876</startTime>
+    <stepDesc>EXCEL文件分段-正确03</stepDesc>
+    <stepId>6581e13d35b640068bb0508fa4a0f610</stepId>
+    <stepName>EXCEL文件分段-正确03</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>013bc6d7946441429826b6c9c5cc036e</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>F</stepStatus>
+    <stepType>SD</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_3_EXCEL文件分段-正确03_段_info>
+  <step_3_EXCEL文件分段-正确03_段_list>
+    <allStepsCnt>0</allStepsCnt>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <failedCnt>0</failedCnt>
+    <finishedCnt>0</finishedCnt>
+    <message>Success</message>
+    <totalCount>0</totalCount>
+    <totalPage>0</totalPage>
+  </step_3_EXCEL文件分段-正确03_段_list>
+  <step_4_EXCEL文件合并分段-正确_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_4_EXCEL文件合并分段-正确_error>
+  <step_4_EXCEL文件合并分段-正确_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.segment.file.FileCombineStepExecutor</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed null="true"/>
+    <endKey>0</endKey>
+    <endTime null="true"/>
+    <failCount null="true"/>
+    <jobRunId>65adfe578e5f436998920fdbb9007f55</jobRunId>
+    <machineId null="true"/>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>sonic_filePath</key>
+        <value>D:\idea3.0\test3</value>
+      </e>
+      <e>
+        <key>sonic_targetFileFormat</key>
+        <value>TEST1</value>
+      </e>
+      <e>
+        <key>sonic_originalFileFormat</key>
+        <value>TEST1</value>
+      </e>
+      <e>
+        <key>sonic_targetFileName</key>
+        <value>test1.xlsx</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>0</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime null="true"/>
+    <stepDesc>TXTandEXCEL文件合并分段-正确</stepDesc>
+    <stepId>56f222f4d8e94bcaacd927085e2cebf9</stepId>
+    <stepName>EXCEL文件合并分段-正确</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>baccef8454ad4b83b805bed55abec19d</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>N</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_4_EXCEL文件合并分段-正确_info>
+</resource>
+

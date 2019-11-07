@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <getChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator>admin</creator>
+      <jobDesc null="true"/>
+      <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+      <jobName>L-简单定时JOB02</jobName>
+      <jobRunStatus null="true"/>
+      <lines/>
+      <steps>
+        <e>
+          <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator>admin</creator>
+          <height>27.00</height>
+          <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+          <leftPos>102.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile>dev_test</profile>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType>luna</sourceType>
+          <stepDesc null="true"/>
+          <stepId>ba00bdb0759f4163849e7badca67a11e</stepId>
+          <stepName>timeStep02</stepName>
+          <stepPosId>c1c401d78667497b9d24d1e39c70675b</stepPosId>
+          <stepRunEntity null="true"/>
+          <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          <topPos>153.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getChain>
+  <getCurrentRunJob>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T13:38:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573047480171</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobRunId>eb97794804194624af941a54ea236735</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.111:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573047480011</startTime>
+        <startType>T</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunJob>
+  <getCurrentRunStep>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <appId null="true"/>
+        <attrJson null="true"/>
+        <clazzName>com.dcits.sonic.executor.spring.demo.nor.NoramalAutoInterfaceTimeTest02</clazzName>
+        <createDate>2019-11-06T00:00:00.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <currentCount>0</currentCount>
+        <dataCenter null="true"/>
+        <dynamicAttrJson null="true"/>
+        <elapsed>56</elapsed>
+        <endKey>0</endKey>
+        <endTime>1573047480152</endTime>
+        <failCount null="true"/>
+        <jobRunId>eb97794804194624af941a54ea236735</jobRunId>
+        <machineId>10.7.94.75:60795</machineId>
+        <metricsJson null="true"/>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <nodeId null="true"/>
+        <params>
+          <e>
+            <key>status</key>
+            <value>success</value>
+          </e>
+        </params>
+        <parentRunId null="true"/>
+        <profile null="true"/>
+        <progress>100</progress>
+        <reSegmentOnError null="true"/>
+        <refJobId null="true"/>
+        <rootJobRunId null="true"/>
+        <secret null="true"/>
+        <seqNo>0</seqNo>
+        <splitClazzName null="true"/>
+        <splitCount>0</splitCount>
+        <startKey>0</startKey>
+        <startTime>1573047480096</startTime>
+        <stepDesc null="true"/>
+        <stepId>ba00bdb0759f4163849e7badca67a11e</stepId>
+        <stepName>timeStep02</stepName>
+        <stepPosId null="true"/>
+        <stepRunId>7ebe2ce16757437d924c05d1f67867e8</stepRunId>
+        <stepSkipStrategy null="true"/>
+        <stepStatus>C</stepStatus>
+        <stepType>NR</stepType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getCurrentRunStep>
+  <getHistRunJobHaveLimitTime>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T13:37:50.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573047470146</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobRunId>37ed4c37fc1b4fccbe20801eeb5674e8</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.115:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573047470009</startTime>
+        <startType>T</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T13:37:40.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573047460150</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobRunId>6a6656119d3449c7a17442c414b893b6</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.114:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573047460011</startTime>
+        <startType>T</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T13:37:30.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573047450208</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobRunId>29bc71477b294de8a4d3611ce00f0898</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.114:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573047450010</startTime>
+        <startType>T</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <createDate>2019-11-06T13:37:20.000+0000</createDate>
+        <createTime null="true"/>
+        <creator null="true"/>
+        <cronExpression null="true"/>
+        <endTime>1573047440157</endTime>
+        <failCnt>0</failCnt>
+        <finishedCnt>1</finishedCnt>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobRunId>e906eedc30054a08b4c001ec479b16ea</jobRunId>
+        <jobStatus>C</jobStatus>
+        <jobType null="true"/>
+        <machineId>10.7.19.111:9999</machineId>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <operator null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <startTime>1573047440013</startTime>
+        <startType>T</startType>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <totalCnt>1</totalCnt>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>4</totalCount>
+    <totalPage>1</totalPage>
+  </getHistRunJobHaveLimitTime>
+  <getList>
+    <code>0000</code>
+    <currentPage>1</currentPage>
+    <data>
+      <e>
+        <allowMultiple>N</allowMultiple>
+        <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+        <attention>false</attention>
+        <createTime>1571153643000</createTime>
+        <creator>admin</creator>
+        <cronExpression>*/10 * * * * ?</cronExpression>
+        <intervalTimeLimit>0</intervalTimeLimit>
+        <jobDesc null="true"/>
+        <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+        <jobName>L-简单定时JOB02</jobName>
+        <jobStatus>S</jobStatus>
+        <jobType>JOB</jobType>
+        <modify null="true"/>
+        <modifyTime null="true"/>
+        <profile>dev_test</profile>
+        <secret null="true"/>
+        <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+        <valid>Y</valid>
+      </e>
+    </data>
+    <message>Success</message>
+    <totalCount>1</totalCount>
+    <totalPage>1</totalPage>
+  </getList>
+  <getRunChain>
+    <code>0000</code>
+    <data>
+      <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+      <creator null="true"/>
+      <jobDesc null="true"/>
+      <jobId>f781d78a3f514e3b8277c42879e1e0b8</jobId>
+      <jobName>L-简单定时JOB02</jobName>
+      <jobRunStatus>C</jobRunStatus>
+      <lines/>
+      <steps>
+        <e>
+          <appId null="true"/>
+          <appName>ly01</appName>
+          <attrJson null="true"/>
+          <createTime>0</createTime>
+          <creator null="true"/>
+          <height>27.00</height>
+          <jobId null="true"/>
+          <leftPos>102.00</leftPos>
+          <nodeId>S0001</nodeId>
+          <nodePosType>S</nodePosType>
+          <profile null="true"/>
+          <refJobId null="true"/>
+          <secret null="true"/>
+          <sourceType null="true"/>
+          <stepDesc null="true"/>
+          <stepId null="true"/>
+          <stepName>timeStep02</stepName>
+          <stepPosId null="true"/>
+          <stepRunEntity>
+            <appId>bdc8350b04cc645a9b46422dc095cdfe</appId>
+            <attrJson>
+              <status>success</status>
+            </attrJson>
+            <clazzName>com.dcits.sonic.executor.spring.demo.nor.NoramalAutoInterfaceTimeTest02</clazzName>
+            <createDate>2019-11-06T00:00:00.000+0000</createDate>
+            <createTime null="true"/>
+            <creator null="true"/>
+            <currentCount>0</currentCount>
+            <dataCenter null="true"/>
+            <dynamicAttrJson null="true"/>
+            <elapsed>56</elapsed>
+            <endKey>0</endKey>
+            <endTime>1573047480152</endTime>
+            <failCount>0</failCount>
+            <jobRunId>eb97794804194624af941a54ea236735</jobRunId>
+            <machineId>1f79be43da837f12a21cbadc94246679</machineId>
+            <metricsJson null="true"/>
+            <modify null="true"/>
+            <modifyTime null="true"/>
+            <nodeId>S0001</nodeId>
+            <parentRunId null="true"/>
+            <profile>dev_test</profile>
+            <progress>100</progress>
+            <reSegmentOnError>N</reSegmentOnError>
+            <refJobId null="true"/>
+            <rootJobRunId>eb97794804194624af941a54ea236735</rootJobRunId>
+            <secret null="true"/>
+            <seqNo>0</seqNo>
+            <splitClazzName null="true"/>
+            <splitCount>0</splitCount>
+            <startKey>0</startKey>
+            <startTime>1573047480096</startTime>
+            <stepDesc null="true"/>
+            <stepId>ba00bdb0759f4163849e7badca67a11e</stepId>
+            <stepName>timeStep02</stepName>
+            <stepPosId>c1c401d78667497b9d24d1e39c70675b</stepPosId>
+            <stepRunId>7ebe2ce16757437d924c05d1f67867e8</stepRunId>
+            <stepSkipStrategy null="true"/>
+            <stepStatus>C</stepStatus>
+            <stepType>NR</stepType>
+            <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+          </stepRunEntity>
+          <tenantId null="true"/>
+          <topPos>153.00</topPos>
+          <width>170.00</width>
+        </e>
+      </steps>
+      <tenantId null="true"/>
+    </data>
+    <message>Success</message>
+  </getRunChain>
+  <jobCommand>
+    <code>0000</code>
+    <data null="true"/>
+    <message>Success</message>
+    <startJobTimeFlag>1573047439576</startJobTimeFlag>
+  </jobCommand>
+  <step_1_timeStep02_error>
+    <code>0000</code>
+    <data/>
+    <message>Success</message>
+  </step_1_timeStep02_error>
+  <step_1_timeStep02_info>
+    <appId null="true"/>
+    <attrJson null="true"/>
+    <clazzName>com.dcits.sonic.executor.spring.demo.nor.NoramalAutoInterfaceTimeTest02</clazzName>
+    <createDate>2019-11-06T00:00:00.000+0000</createDate>
+    <createTime null="true"/>
+    <creator null="true"/>
+    <currentCount>0</currentCount>
+    <dataCenter null="true"/>
+    <dynamicAttrJson null="true"/>
+    <elapsed>56</elapsed>
+    <endKey>0</endKey>
+    <endTime>1573047480152</endTime>
+    <failCount null="true"/>
+    <jobRunId>eb97794804194624af941a54ea236735</jobRunId>
+    <machineId>10.7.94.75:60795</machineId>
+    <metricsJson null="true"/>
+    <modify null="true"/>
+    <modifyTime null="true"/>
+    <nodeId null="true"/>
+    <params>
+      <e>
+        <key>status</key>
+        <value>success</value>
+      </e>
+    </params>
+    <parentRunId null="true"/>
+    <profile null="true"/>
+    <progress>100</progress>
+    <reSegmentOnError null="true"/>
+    <refJobId null="true"/>
+    <rootJobRunId null="true"/>
+    <secret null="true"/>
+    <seqNo>0</seqNo>
+    <splitClazzName null="true"/>
+    <splitCount>0</splitCount>
+    <startKey>0</startKey>
+    <startTime>1573047480096</startTime>
+    <stepDesc null="true"/>
+    <stepId>ba00bdb0759f4163849e7badca67a11e</stepId>
+    <stepName>timeStep02</stepName>
+    <stepPosId null="true"/>
+    <stepRunId>7ebe2ce16757437d924c05d1f67867e8</stepRunId>
+    <stepSkipStrategy null="true"/>
+    <stepStatus>C</stepStatus>
+    <stepType>NR</stepType>
+    <tenantId>5cb8da76ae5b46a186933b1664568e06</tenantId>
+  </step_1_timeStep02_info>
+  <timeJobStopResult>
+    <code>0000</code>
+    <data null="true"/>
+    <endJobTimeFlag>1573047490651</endJobTimeFlag>
+    <message>Success</message>
+  </timeJobStopResult>
+</resource>
+

@@ -1,16 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="预言值存储">
-    <test name="普通JOB">
-        <parameter name="param_fileName" value="param.properties"/>
-        <parameter name="pre_fileName" value="preData"/>
-        <parameter name="isTimedJob" value="false"/>
+    <!--<test name="定時任務">
+        <parameter name="pre_fileName" value="job01"/>
+        <parameter name="jobName" value="L-简单定时JOB02"/>
+        <parameter name="instruction" value="start"/>
+        <parameter name="hasCron" value="1"/>
+        <parameter name="timelength" value="50000"/>
         <classes>
-            <class name="com.dcits.sonicAutoTest.interfaceTest.preDataUtil.GetPreDataFromDb"></class>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>-->
+  <!-- <test name="C-简单串行正确-job01">
+        <parameter name="pre_fileName" value="job01"/>
+        <parameter name="jobName" value="C-简单串行正确-job01"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
         </classes>
     </test>
 
+     <test name="C-简单并行正确-job02">
+          <parameter name="pre_fileName" value="job02"/>
+          <parameter name="jobName" value="C-简单并行正确-job02"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+
+      <test name="C-简单串行异常-job03">
+         <parameter name="pre_fileName" value="job03"/>
+         <parameter name="jobName" value="C-简单串行异常-job03"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+
+     <test name="C-复杂并行异常-job04">
+         <parameter name="pre_fileName" value="job04"/>
+         <parameter name="jobName" value="C-复杂并行异常-job04"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+
+    <test name="C-数据库分段串行正确-job05">
+          <parameter name="pre_fileName" value="job05"/>
+          <parameter name="jobName" value="C-数据库分段串行正确-job05"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+    <test name="C-数据库分段串行异常-job06">
+       <parameter name="pre_fileName" value="job06"/>
+       <parameter name="jobName" value="C-数据库分段串行异常-job06"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+    <test name="C-数据库分段seg异常-job07">
+        <parameter name="pre_fileName" value="job07"/>
+        <parameter name="jobName" value="C-数据库分段seg异常-job07"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+
+    <test name="C-数据库分段执行正确-job08">
+        <parameter name="pre_fileName" value="job08"/>
+        <parameter name="jobName" value="C-数据库分段执行正确-job08"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+
+    <test name="C-数据库分段并行异常-job09">
+        <parameter name="pre_fileName" value="job09"/>
+        <parameter name="jobName" value="C-数据库分段并行异常-job09"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+
+    <test name="C-简单并行异常-job10">
+        <parameter name="pre_fileName" value="job10"/>
+        <parameter name="jobName" value="C-简单并行异常-job10"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-数据库多个分段串行正确-job11">
+        <parameter name="pre_fileName" value="job11"/>
+        <parameter name="jobName" value="C-数据库多个分段串行正确-job11"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-数据库多个分段并行正确-job12">
+        <parameter name="pre_fileName" value="JOB12"/>
+        <parameter name="jobName" value="C-数据库多个分段并行正确-job12"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-简单串行续跑-job13">
+        <parameter name="pre_fileName" value="job13"/>
+        <parameter name="jobName" value="C-简单串行续跑-job13"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-分段异常串行续跑-job14">
+        <parameter name="pre_fileName" value="job14"/>
+        <parameter name="jobName" value="C-分段异常串行续跑-job14"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-分段执行异常串行续跑-job15">
+        <parameter name="pre_fileName" value="job15"/>
+        <parameter name="jobName" value="C-分段执行异常串行续跑-job15"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-简单异常并行续跑-job16">
+        <parameter name="pre_fileName" value="job16"/>
+        <parameter name="jobName" value="C-简单异常并行续跑-job16"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+
+    <test name="C-分段异常并行续跑-job17">
+        <parameter name="pre_fileName" value="job17"/>
+        <parameter name="jobName" value="C-分段异常并行续跑-job17"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+    <test name="C-分段执行异常并行续跑-job18">
+        <parameter name="pre_fileName" value="job18"/>
+        <parameter name="jobName" value="C-分段执行异常并行续跑-job18"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+ &lt;!&ndash;   <test name="C-TXT分段job-job19">
+        <parameter name="pre_fileName" value="job19"/>
+        <parameter name="jobName" value="C-TXT分段job-job19"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>&ndash;&gt;
+     <test name="C-数据库分段并行异常-job20">
+        <parameter name="pre_fileName" value="job20"/>
+        <parameter name="jobName" value="C-数据库分段并行异常-job20"/>
+        <parameter name="instruction" value="invokeOnce"/>
+        <parameter name="hasCron" value="0"/>
+        <parameter name="timelength" value=""/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>-->
+
+   <test name="Y-定时任务job21">
+        <parameter name="pre_fileName" value="job21"/>
+        <parameter name="jobName" value="Y-定时任务job21"/>
+        <parameter name="instruction" value="start"/>
+        <parameter name="hasCron" value="1"/>
+        <parameter name="timelength" value="540000"/>
+        <classes>
+            <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+        </classes>
+    </test>
+<!--
+    <test name="Y-普通job测试正确-job22">
+       <parameter name="pre_fileName" value="job22"/>
+       <parameter name="jobName" value="Y-普通job测试正确-job22"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-数据库分段测试job23">
+       <parameter name="pre_fileName" value="job23"/>
+       <parameter name="jobName" value="Y-数据库分段测试job23"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+
+   <test name="Y-TXT文件合并简单流程-job24">
+       <parameter name="pre_fileName" value="job24"/>
+       <parameter name="jobName" value="Y-TXT文件合并简单流程-job24"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+   <test name="Y-EXCEL文件合并测试-job25">
+       <parameter name="pre_fileName" value="job25"/>
+       <parameter name="jobName" value="Y-EXCEL文件合并测试-job25"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-EXCEL文件合并简单-job26">
+       <parameter name="pre_fileName" value="job26"/>
+       <parameter name="jobName" value="Y-EXCEL文件合并简单-job26"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+   <test name="Y-EXCEL文件合并再分段-job27">
+       <parameter name="pre_fileName" value="job27"/>
+       <parameter name="jobName" value="Y-EXCEL文件合并再分段-job27"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-数据库分段为结束节点测试流程-job28">
+       <parameter name="pre_fileName" value="job28"/>
+       <parameter name="jobName" value="Y-数据库分段为结束节点测试流程-job28"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+   <test name="Y-数据库分段串行引用异常-job29">
+       <parameter name="pre_fileName" value="job29"/>
+       <parameter name="jobName" value="Y-数据库分段串行引用异常-job29"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-数据库分段串行引用正确-job30">
+       <parameter name="pre_fileName" value="job30"/>
+       <parameter name="jobName" value="Y-数据库分段串行引用正确-job30"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-简单step引用正确-job31">
+       <parameter name="pre_fileName" value="job31"/>
+       <parameter name="jobName" value="Y-简单step引用正确-job31"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-简单并行引用正确-job32">
+       <parameter name="pre_fileName" value="job32"/>
+       <parameter name="jobName" value="Y-简单并行引用正确-job32"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+   <test name="Y-简单step引用异常-job33">
+       <parameter name="pre_fileName" value="job33"/>
+       <parameter name="jobName" value="Y-简单step引用异常-job33"/>
+       <parameter name="instruction" value="invokeOnce"/>
+       <parameter name="hasCron" value="0"/>
+       <parameter name="timelength" value=""/>
+       <classes>
+           <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+       </classes>
+   </test>
+
+     <test name="Y-TXT文件合并后再分段-job34">
+         <parameter name="pre_fileName" value="job34"/>
+         <parameter name="jobName" value="Y-TXT文件合并后再分段-job34"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+
+     <test name="Y-复杂混合引用正确-job35">
+         <parameter name="pre_fileName" value="job35"/>
+         <parameter name="jobName" value="Y-复杂混合引用正确-job35"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+     <test name="Y-简单串行引用正确-job36">
+          <parameter name="pre_fileName" value="job36"/>
+          <parameter name="jobName" value="Y-简单串行引用正确-job36"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+      <test name="Y-两层引用串行正确-job37">
+          <parameter name="pre_fileName" value="job37"/>
+          <parameter name="jobName" value="Y-两层引用串行正确-job37"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+      <test name="Y-简单并行引用异常-job38">
+          <parameter name="pre_fileName" value="job38"/>
+          <parameter name="jobName" value="Y-简单并行引用异常-job38"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+      <test name="Y-复杂数据库分段引用异常-job39">
+          <parameter name="pre_fileName" value="job39"/>
+          <parameter name="jobName" value="Y-复杂数据库分段引用异常-job39"/>
+          <parameter name="instruction" value="invokeOnce"/>
+          <parameter name="hasCron" value="0"/>
+          <parameter name="timelength" value=""/>
+          <classes>
+              <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+          </classes>
+      </test>
+    <test name="Y-简单串行引用异常-job40">
+         <parameter name="pre_fileName" value="job40"/>
+         <parameter name="jobName" value="Y-简单串行引用异常-job40"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+     <test name="Y-TXT文件合并测试41">
+         <parameter name="pre_fileName" value="job41"/>
+         <parameter name="jobName" value="Y-TXT文件合并测试41"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>
+
+
+     <test name="Y-复杂混合引用异常-job42">
+         <parameter name="pre_fileName" value="job42"/>
+         <parameter name="jobName" value="Y-复杂混合引用异常-job42"/>
+         <parameter name="instruction" value="invokeOnce"/>
+         <parameter name="hasCron" value="0"/>
+         <parameter name="timelength" value=""/>
+         <classes>
+             <class name="com.dcits.sonic.test.preDataUtil.GetPreDataFromDb"></class>
+         </classes>
+     </test>-->
+
     <listeners>
-        <listener class-name="com.dcits.sonicAutoTest.util.ExtentTestNGIReporterListener"/>
+        <listener class-name="com.dcits.sonic.util.ExtentTestNGIReporterListener"/>
     </listeners>
 </suite>
