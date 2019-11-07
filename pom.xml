@@ -112,10 +112,10 @@
         <finalName>sonic-testng-test</finalName>
         <defaultGoal>compile</defaultGoal>
         <plugins>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <!--该插件是解决命令下执行mvn test指定testng xxx.xml 文件 的配置-->
                 <groupId>org.apache.maven.plugins</groupId>
