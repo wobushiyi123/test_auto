@@ -110,6 +110,7 @@
     </dependencies>
     <build>
         <finalName>sonic-testng-test</finalName>
+        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
